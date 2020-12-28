@@ -4,6 +4,10 @@
 
 Years later, I am midway through a PhD in Sociology but I am starting to feel the same way about my writing as I did about my teaching and I don't want to repeat that arc. One thing I am trying to help with the burden of never doing enough writing is by writing this blog to you, my mystery reader. 
 
-It will be an outlet for me to share the surface my babbling thought fountain whenever I cannot find the will to do my academic writing. I have been writing at least 30 minutes a day to keep the fingers limber and I think if I have this blog as a place to write for fun, it will keep those 30 minutes from devolving into a chore and compounding my writing wariness. Maybe this can be a place where I can write by not writing.
+It will be an outlet for me to babble whenever I cannot wrangle my thoughts into academic form. I have been writing at least 30 minutes a day to keep the fingers limber and I think if I have this blog as a place to write for fun, it will keep those 30 minutes from devolving into a chore and compounding my writing ennui. Maybe this can be a place where I can write by not writing.
 
-We will see if any structure emerges from my stream of blog-consciousness. I am interested in sociology, small communities, board games, challenge, power, Buddhism, and change so maybe some of those will turn into common topics?
+We will see if any structure emerges from my stream of blog-consciousness. I am interested in sociology, small communities, board games, power, Buddhism, and change so maybe some of those will turn into common topics?
+
+{% if page.comments == true %}
+  {% include comments.html %}
+{% endif %}
