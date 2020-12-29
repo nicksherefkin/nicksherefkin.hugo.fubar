@@ -6,7 +6,6 @@
 #  ${bridge_app_name}: the name you chose in Heroku for your bridge API
 #  comments: the so-called property, this defines the key in staticman.yml where the configuration is found
 #
-# for me, this line reads:
 # staticman_url: https://${bridge_app_name}.herokuapp.com/v2/entry/${github-username}/${blog-repo}/master/comments
 staticman_url: https://staticman-bridge.herokuapp.com/v2/entry/nicksherefkin/nicksherefkin.github.io/master/comments
 
