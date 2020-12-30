@@ -46,13 +46,13 @@ defaultContentLanguageInSubdir = false
   
   # Note: Added by Nick Sherefkin
 
-  [params.staticman]
+  [Params.staticman]
     enabled             = true
-    api                 = "https://staticman-bridge.herokuapp.com"  # No Trailing Slash
+    endpoint            = "https://staticman-bridge.herokuapp.com"  # No Trailing Slash
     gitProvider         = "github"
     username            = "nicksherefkin"
-    repo                = "nicksherefkin.github.io"
-    branch              = "comments"
-  [params.staticman.recaptcha]
+    repository          = "nicksherefkin.github.io"
+    branch              = "main"
+  [Params.staticman.reCaptcha]
     siteKey           = "6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C"
     encryptedKey      = "Upsz0NX+jssYpJah/LwcrQaxY+gLx+ZxVow0NCePqF/oq+0PjjxLv7PfVvHtjHQH/OeP6kRjsTlwjQWdyvuHN25/Fb0sukUhcNngyz3246+Q+LY0EobhhP2NwMrPnrUqN6rWDRMZW5y8H4NeSbZz72tP35xAotow/SeE1uEKP2mBGYnvD/uBlPp/fbCmJELzJ7DtGgfKOUrPPAzu7Mngkg2bueHTL8Otq/wWA9CXsm7Okr/6p/UZ+oJsbCufqRKPojXkb5jAI7Z8oOcTF8f+9jKX4eVoiYLGukq/rSfSPf4WQsKTpiDRH7Nz6foWv8kVQ/bCmxnHThvRSHI4Kof9zhtO1ti+RPaiTRjNnVRAp1CerVgZK5aa9UKB9QTgZHDSC09Q2RPFv7ec87zpvlg9UnIFwISsM2/JKKkQ5ZcztWo5NOv8RL9DvtYty+o9Mv45Etec1i8ySN6J+rmQrE7svbfCLcHjNXmsy7KTJmpKpNYbLvKs+c7PDiOmwBZsVqXzvrAMgWUx4ofUWJoqNG/65DSogDucjdKQaSrThozT+H5L55C0JsFMGdz1DFavrTEOouhzzjjyNS3OJl2FSCIKP0Lzw3Pne4m/ubpuFCZDS5Gq8a97/Xol7XoaVQfA/zRF0o5GIzd3My67iTH76eI3ybS4lcw1lwIgctfBn9OvDaI="
