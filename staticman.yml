@@ -1,82 +1,31 @@
-# KEY SOURCE: https://travisdowns.github.io/blog/2020/02/05/now-with-comments
-# Name of the property. You can have multiple properties with completely
-# different config blocks for different sections of your site.
-# For example, you can have one property to handle comment submission and
-# another one to handle posts.
+# Edit accordingly
 comments:
-  # (*) REQUIRED
-  #
-  # Names of the fields the form is allowed to submit. If a field that is
-  # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "email", "body", "reply_to"]
-
-  # When allowedOrigins is defined, only requests sent from one of the domains
-  # listed will be accepted.
-  allowedOrigins: ["nicksherefkin.net"]
-
-  # (*) REQUIRED
-  #
-  # Name of the branch being used. Must match the one sent in the URL of the
-  # request.
-  branch: "main"
-
-  # List of fields to be populated automatically by Staticman and included in
-  # the data file. Keys are the name of the field. The value can be an object
-  # with a `type` property, which configures the generated field, or any value
-  # to be used directly (e.g. a string, number or array)
+  allowedFields: ["name", "email", "comment", "replyID", "replyName", "replyThread"]
+  allowedOrigins: ["localhost", "nicksherefkin.net"]
+  branch: "main"  # should match your config.toml
+  filename: "comment-{@date:YYYY-MM-DDTHH-mm-ss.SSS}"
+  format: "yaml"
+  commitMessage: "New Staticman comment in {options.slug}"
   generatedFields:
     date:
       type: date
-
-  # The format of the generated data files. Accepted values are "json", "yaml"
-  # or "frontmatter"
-  format: "yaml"
-
-  # Whether entries need to be appproved before they are published to the main
-  # branch. If set to `true`, a pull request will be created for your approval.
-  # Otherwise, entries will be published to the main branch automatically.
+      options:
+        format: "iso8601"
   moderation: true
-
-  # Name of the site. Used in notification emails.
   name: "Nick Sherefkin's Sociology"
-
-  # (*) REQUIRED
-  #
-  # Destination path (directory) for the data files. Accepts placeholders.
-  path: "data/comments/{options.entryId}"
-
-  # (*) REQUIRED
-  #
-  # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "comment-{@timestamp}"
-
-  # Names of required files. If any of these isn't in the request or is empty,
-  # an error will be thrown.
-  requiredFields: ["name", "body"]
-
-  # Notification settings. When enabled, users can choose to receive notifications
-  # via email when someone adds a reply or a new comment. This requires an account
-  # with Mailgun, which you can get for free at http://mailgun.com.
-  notifications:
-    # Enable notifications
-    enabled: true 
-    # (!) ENCRYPTED
-    #
-    # Mailgun API key
-    apiKey: "cgafHduqHhqkeXFCdpcxMybn76IrMGODRFc6OOES5tnpYunpAVN8/4hcl+r6qt53L/uIIqZvJTuh+VohbDQ7GUKo7e728Z6YC/uyDCspqmDfdvctGJxAzT7IBCnpAlN2MqlkH+Uc6XWb8X6KPNOX4HDsci/DOOk6PIh3wocwNaMFeZcehiUphORVU+bTWZ8sci0K1kV58WzBErXwoPPyYeNOiAawDqQjDpKmaL24WboUh1wasp2PhwQEXTX0BvX/PuiOsMn1kolCADFir9qu/+iY8UCqOdAmy9QJ9Vhqx9oQ+SR75NNpWndNqjov1d1WEwjlTimBxNBXH0cz+o0NJQ=="
-    # (!) ENCRYPTED
-    #
-    # Mailgun domain (encrypted)
-    domain: "MArGslpkr/jpiBJ+ykN+WeFuPR43JFZ/vu+jA8JnayPPuVbbyuROHNGju/g93zEozPVzkBy7yDW5/9AwmTf0NQDKZco2H+W8B5ySajY3A9/zS6AomiqZb1dRtKe90L/qjdFT54njGrWgu+A89eutZ7WRbp9E/H38z3z8ea+audDefBCoewB/7Iz2yPIZvnUVgVSBv/o2+xr44gNWKFkm5iGTsU93NGMhNJRSsi6US+x6PiXe8Jd/rbL8wTVtYkx8hod1JqkMIOf+81te7yNMFEpNqKcr2sE36nUFJmLsN9NdvvtHB9Yo7SqYOT8VIdjNEmhS8lQhZy6MQaLKqHnRJg=="
-
-# List of transformations to apply to any of the fields supplied. Keys are
-  # the name of the field and values are possible transformation types.
+  path: "data/comments/{options.slug}"
+  requiredFields: ["name", "email", "comment"]
   transforms:
     email: md5
 
+  # reCAPTCHA (OPTIONAL)
+  # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
+  # Use your OWN siteKey and secret.
   reCaptcha:
     enabled: true
-    # the siteKey is used as-is (no encryption)
-    siteKey: 6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C
-    # the secret is the encrypted blob you got back from the encrypt call
-    secret: Upsz0NX+jssYpJah/LwcrQaxY+gLx+ZxVow0NCePqF/oq+0PjjxLv7PfVvHtjHQH/OeP6kRjsTlwjQWdyvuHN25/Fb0sukUhcNngyz3246+Q+LY0EobhhP2NwMrPnrUqN6rWDRMZW5y8H4NeSbZz72tP35xAotow/SeE1uEKP2mBGYnvD/uBlPp/fbCmJELzJ7DtGgfKOUrPPAzu7Mngkg2bueHTL8Otq/wWA9CXsm7Okr/6p/UZ+oJsbCufqRKPojXkb5jAI7Z8oOcTF8f+9jKX4eVoiYLGukq/rSfSPf4WQsKTpiDRH7Nz6foWv8kVQ/bCmxnHThvRSHI4Kof9zhtO1ti+RPaiTRjNnVRAp1CerVgZK5aa9UKB9QTgZHDSC09Q2RPFv7ec87zpvlg9UnIFwISsM2/JKKkQ5ZcztWo5NOv8RL9DvtYty+o9Mv45Etec1i8ySN6J+rmQrE7svbfCLcHjNXmsy7KTJmpKpNYbLvKs+c7PDiOmwBZsVqXzvrAMgWUx4ofUWJoqNG/65DSogDucjdKQaSrThozT+H5L55C0JsFMGdz1DFavrTEOouhzzjjyNS3OJl2FSCIKP0Lzw3Pne4m/ubpuFCZDS5Gq8a97/Xol7XoaVQfA/zRF0o5GIzd3My67iTH76eI3ybS4lcw1lwIgctfBn9OvDaI=
+    # siteKey and secret should match your config.toml
+    siteKey: "6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C"
+    # (!) ENCRYPT reCaptcha secret key using Staticman /encrypt endpoint
+    # i.e. https://{staticman-endpoint}/v3/encrypt/{your-site-secret}
+    # For more information, https://staticman.net/docs/encryption
+    secret: "I0MP8Xj6Xbz+vyCw1BhDIJyKgbRhrUyeLNdiGH2n0wVANPFqkxeaAtR05GVoIxiPbHVcjOs7zboQyi+RU88Mqd/JchhPwajBuURfxsQyHfNslejHPmOjB8wmxca5UeJ7UA3H+MbQOQ2UdqZ2J0Mr+OZbpk0Nad0H/5wPsaejgomOqIpbcnM5+woPNqWouIOdhjQstjLBsnRo/x3RXhZFH+awOmN/wJV+FIydKA1qWeiFbDX4tyn2oMHzLn6W2rAX7jbVQJAFPx7lOgJJw1F2k4zyiTH/NFuME2XIPM2X+xDT3y7lGMqAFKPuRmbL7jrzlQZW5IIQMw1JmpIPW/28rg=="

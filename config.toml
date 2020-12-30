@@ -7,7 +7,7 @@ theme = "eureka"
 # theme = "github.com/wangchucheng/hugo-eureka"
 
 paginate = 3
-copyright = "&copy; 2020 <a href=\"https://www.wangchucheng.com/\">C. Wang</a> and <a href=\"https://www.ruiqima.com/\">R. Ma</a>"
+copyright = "&copy; 2020 Nick Sherefkin"
 enableEmoji = true
 enableGitInfo = false
 summaryLength = 75
@@ -48,11 +48,11 @@ defaultContentLanguageInSubdir = false
 
   [Params.staticman]
     enabled             = true
-    endpoint            = "https://staticman-bridge.herokuapp.com"  # No Trailing Slash
+    endpoint            = "https://staticman3.herokuapp.com"  # No Trailing Slash
     gitProvider         = "github"
     username            = "nicksherefkin"
     repository          = "nicksherefkin.github.io"
     branch              = "main"
-  [Params.staticman.reCaptcha]
-    siteKey           = "6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C"
-    encryptedKey      = "Upsz0NX+jssYpJah/LwcrQaxY+gLx+ZxVow0NCePqF/oq+0PjjxLv7PfVvHtjHQH/OeP6kRjsTlwjQWdyvuHN25/Fb0sukUhcNngyz3246+Q+LY0EobhhP2NwMrPnrUqN6rWDRMZW5y8H4NeSbZz72tP35xAotow/SeE1uEKP2mBGYnvD/uBlPp/fbCmJELzJ7DtGgfKOUrPPAzu7Mngkg2bueHTL8Otq/wWA9CXsm7Okr/6p/UZ+oJsbCufqRKPojXkb5jAI7Z8oOcTF8f+9jKX4eVoiYLGukq/rSfSPf4WQsKTpiDRH7Nz6foWv8kVQ/bCmxnHThvRSHI4Kof9zhtO1ti+RPaiTRjNnVRAp1CerVgZK5aa9UKB9QTgZHDSC09Q2RPFv7ec87zpvlg9UnIFwISsM2/JKKkQ5ZcztWo5NOv8RL9DvtYty+o9Mv45Etec1i8ySN6J+rmQrE7svbfCLcHjNXmsy7KTJmpKpNYbLvKs+c7PDiOmwBZsVqXzvrAMgWUx4ofUWJoqNG/65DSogDucjdKQaSrThozT+H5L55C0JsFMGdz1DFavrTEOouhzzjjyNS3OJl2FSCIKP0Lzw3Pne4m/ubpuFCZDS5Gq8a97/Xol7XoaVQfA/zRF0o5GIzd3My67iTH76eI3ybS4lcw1lwIgctfBn9OvDaI="
+    [Params.staticman.reCaptcha]
+      siteKey           = "6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C"
+      secret            = "I0MP8Xj6Xbz+vyCw1BhDIJyKgbRhrUyeLNdiGH2n0wVANPFqkxeaAtR05GVoIxiPbHVcjOs7zboQyi+RU88Mqd/JchhPwajBuURfxsQyHfNslejHPmOjB8wmxca5UeJ7UA3H+MbQOQ2UdqZ2J0Mr+OZbpk0Nad0H/5wPsaejgomOqIpbcnM5+woPNqWouIOdhjQstjLBsnRo/x3RXhZFH+awOmN/wJV+FIydKA1qWeiFbDX4tyn2oMHzLn6W2rAX7jbVQJAFPx7lOgJJw1F2k4zyiTH/NFuME2XIPM2X+xDT3y7lGMqAFKPuRmbL7jrzlQZW5IIQMw1JmpIPW/28rg=="
