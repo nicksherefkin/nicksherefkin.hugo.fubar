@@ -72,7 +72,7 @@ disableLanguages        = []
 
   [params.staticman]
     enabled             = true
-    api                 = "ns-staticman.herokuapp.com"  # No Trailing Slash
+    api                 = "staticman3.herokuapp.com"  # No Trailing Slash
     gitProvider         = "github"
     username            = "nicksherefkin"
     repo                = "nicksherefkin.github.io"
