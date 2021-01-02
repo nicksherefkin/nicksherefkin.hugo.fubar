@@ -1,0 +1,58 @@
+baseURL = "https://nicksherefkin.github.io/"
+title = "Nick Sherefkin's Sociology"
+
+# Comment when installing using Hugo Modules
+theme = "eureka"
+# Uncomment when installing using Hugo Modules
+# theme = "github.com/wangchucheng/hugo-eureka"
+
+paginate = 3
+copyright = "&copy; 2020 Nick Sherefkin"
+enableEmoji = true
+enableGitInfo = false
+summaryLength = 75
+
+defaultContentLanguage = "en"
+hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean.
+defaultContentLanguageInSubdir = false
+
+# Uncomment for google analytics
+# googleAnalytics = "UA-123-45"
+
+[markup]
+  # Do not modify markup.highlight
+  [markup.highlight]
+    codeFences = false
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+    ordered = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+  author = "authors"
+
+[build]
+  useResourceCacheWhen = "always"
+
+[params]
+ ######################################
+  # Staticman
+  
+  # Note: Added by Nick Sherefkin
+
+  [Params.staticman]
+    enabled             = true
+    endpoint            = "https://staticman3.herokuapp.com"  # No Trailing Slash
+    gitProvider         = "github"
+    username            = "nicksherefkin"
+    repository          = "nicksherefkin.github.io"
+    branch              = "main"
+    [Params.staticman.reCaptcha]
+      siteKey           = "6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C"
+      secret            = "I0MP8Xj6Xbz+vyCw1BhDIJyKgbRhrUyeLNdiGH2n0wVANPFqkxeaAtR05GVoIxiPbHVcjOs7zboQyi+RU88Mqd/JchhPwajBuURfxsQyHfNslejHPmOjB8wmxca5UeJ7UA3H+MbQOQ2UdqZ2J0Mr+OZbpk0Nad0H/5wPsaejgomOqIpbcnM5+woPNqWouIOdhjQstjLBsnRo/x3RXhZFH+awOmN/wJV+FIydKA1qWeiFbDX4tyn2oMHzLn6W2rAX7jbVQJAFPx7lOgJJw1F2k4zyiTH/NFuME2XIPM2X+xDT3y7lGMqAFKPuRmbL7jrzlQZW5IIQMw1JmpIPW/28rg=="

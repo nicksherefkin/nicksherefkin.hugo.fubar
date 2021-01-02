@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nick Sherefkin&#39;s Sociology</title>
+    <link>https://nicksherefkin.github.io/</link>
+    <description>Recent content on Nick Sherefkin&#39;s Sociology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Dec 2020 16:08:41 -0800</lastBuildDate><atom:link href="https://nicksherefkin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nothing Blog</title>
+      <link>https://nicksherefkin.github.io/posts/post1/</link>
+      <pubDate>Mon, 28 Dec 2020 16:08:41 -0800</pubDate>
+      
+      <guid>https://nicksherefkin.github.io/posts/post1/</guid>
+      <description>Wei wu wei is a Taoist phrase meaning &amp;ldquo;do by not doing&amp;rdquo;. I learned about it the summer I read the Tao Te Ching. I was reassembling myself after quitting a job teaching high school geometry. My students had been lovable kids and my coworkers had been supportive peers but I had slowly been turning the job into a gauntlet of challenges I could no longer complete. I took each imperfect lesson as a failure and traced failure each to some action or preparation I had failed to do.</description>
+    </item>
+    
+  </channel>
+</rss>
