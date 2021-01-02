@@ -331,7 +331,18 @@
           <input name='fields[website]' type='text' placeholder='Your Website'>
           <input required name='fields[email]' type='email' placeholder='Your Email'>
           <textarea required name='fields[body]' placeholder='Your Message' rows='10'></textarea>
+          
+          <div class="comment-subscribe">
+            <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
+            Send me an email when someone comments on this post.
+          </div>
 
+          
+          
+          
+            <input hidden name="options[reCaptcha][siteKey]" value="6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C">
+            <input hidden name="options[reCaptcha][secret]" value="zoo5v4JhmHuHyP4RNNwkbzqXSTTYB1NoCgyb4IKSjSM5nCbYrf8/KbXIdBgn4&#43;fPAeM3q5HGfHqN1oekPpQDS6&#43;qrlbhfj7dg/ZLn7lW0XvbO2X8Gs8ltn6&#43;V9jfrDpsQ19e6Y&#43;4HAHy&#43;nhNcjLIj&#43;I7TDVklwlSuywuNZGyP9Q8OX9LMPydRtIBvUPof/Aoart2jAsXlPuw4h0tN8dPBmauMqmkLwwakrdHZsIjTYFaMVIZfG2sie1glAtM52TUa3EbBe7JqdzS1zAcryrhDaufiK41TWyKJgkKR&#43;UCS68Ra0d37awXxhiGpreCDy82ArhDSB03HeaO64BHzEWT7VwBXI4YZMKA&#43;OI6mRlZ8phFgAnsMN7Xq0ReYMmnI8NE0c20f2FgbA5b&#43;tovd7pc80BF73YO3y8YDVj2g1LTvPLZSv0Dr6YcQPsxOdPczT7cVdRgjEK7g4M//vOba4r2bJRa4yFjPz0Eil1YL3&#43;G3bUXPld&#43;Nul9QUzSbW4xUAgRxHZ92cbOMkM5s5hTQEpv5dO0pJHA/XARQyNMK9izlsmYal71XrR3Jsj6nYVyUfPvQjcyGHIvGhwXOkCxll4CzA/ALrUzm7TsvZpJA2qVoNKrS5ZwDs871EEHtptLg8oT&#43;HV9D97/G9GXz&#43;KiEe1IlmU0t/8bLs8z2hP4NPS85ME=">
+            <div class="g-recaptcha" data-sitekey="6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C"></div>
           
           
 
@@ -351,6 +362,31 @@
     
     <div>
       <h2>Comments</h2>
+                  <div id="4ec67ea0-4d3c-11eb-8f55-2300378f237c" class="comment">
+                    <header>
+                      <img class="comment-avatar circle" src="https://www.gravatar.com/avatar/5e864a6288ce996b6173346197819bf0?s=100" alt="Nick's Gravatar">
+                      <div>
+                        <div class="comment-author-container">
+                          <h3 class="comment-author">Nick</h3>
+                          <a class="comment-date" href="#4ec67ea0-4d3c-11eb-8f55-2300378f237c" title="Permalink to this comment">
+                            <time datetime="2021-01-02T20:51:38.253Z">02 Jan 21 20:51</time>
+                          </a>
+                        </div>
+                        
+                        
+                        <a class="comment-reply-btn" href="#say-something">Reply</a>
+                      </div>
+                    </header>
+                    <div class="comment-content">
+                      Test reply with reCaptcha
+                    </div>
+                  </div>
+                
+              
+              
+            
+          
+              
                   <div id="c854e3a0-4d24-11eb-8e69-8361822fd140" class="comment">
                     <header>
                       <img class="comment-avatar circle" src="https://www.gravatar.com/avatar/9d8f79c38001630e9f6883312bf6ff3b?s=100" alt="Nick's Gravatar">
@@ -496,6 +532,7 @@
     
     <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.c4c130142568666ce00d4755d50576cbad41c2a85228e003e9cb0c22e2ef58f2.js" integrity="sha256-xMEwFCVoZmzgDUdV1QV2y61BwqhSKOAD6csMIuLvWPI="></script>
     <script src="/js/add-on.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
     </div>
   </body>
 </html>

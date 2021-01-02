@@ -79,8 +79,8 @@ disableLanguages        = []
     branch              = "main"
 
     [params.staticman.recaptcha]
-      siteKey           = ""
-      encryptedKey      = ""
+      siteKey           = "6Ld5RBgaAAAAAJ39yf_WcGM3NaW07NE9ewEs0J5C"
+      encryptedKey      = "zoo5v4JhmHuHyP4RNNwkbzqXSTTYB1NoCgyb4IKSjSM5nCbYrf8/KbXIdBgn4+fPAeM3q5HGfHqN1oekPpQDS6+qrlbhfj7dg/ZLn7lW0XvbO2X8Gs8ltn6+V9jfrDpsQ19e6Y+4HAHy+nhNcjLIj+I7TDVklwlSuywuNZGyP9Q8OX9LMPydRtIBvUPof/Aoart2jAsXlPuw4h0tN8dPBmauMqmkLwwakrdHZsIjTYFaMVIZfG2sie1glAtM52TUa3EbBe7JqdzS1zAcryrhDaufiK41TWyKJgkKR+UCS68Ra0d37awXxhiGpreCDy82ArhDSB03HeaO64BHzEWT7VwBXI4YZMKA+OI6mRlZ8phFgAnsMN7Xq0ReYMmnI8NE0c20f2FgbA5b+tovd7pc80BF73YO3y8YDVj2g1LTvPLZSv0Dr6YcQPsxOdPczT7cVdRgjEK7g4M//vOba4r2bJRa4yFjPz0Eil1YL3+G3bUXPld+Nul9QUzSbW4xUAgRxHZ92cbOMkM5s5hTQEpv5dO0pJHA/XARQyNMK9izlsmYal71XrR3Jsj6nYVyUfPvQjcyGHIvGhwXOkCxll4CzA/ALrUzm7TsvZpJA2qVoNKrS5ZwDs871EEHtptLg8oT+HV9D97/G9GXz+KiEe1IlmU0t/8bLs8z2hP4NPS85ME="
 
 [menu]
 
