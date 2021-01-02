@@ -4,6 +4,15 @@
 # If a command fails then the deploy stops
 set -e
 
+# Stash local change
+git stash
+
+# Pull remote changes which should just be new comments
+git pull origin main
+
+# Add back stashed changes and clear stash
+git stash pop
+
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
