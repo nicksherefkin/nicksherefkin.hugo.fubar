@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://nicksherefkin.github.io/"
+baseURL = "https://nicksherefkin.netlify.app/"
 title = "Nick Sherefkin's Sociology"
 
 languageCode = "en"

@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Nick Sherefkin&#39;s Sociology</title>
-        <link>https://nicksherefkin.github.io/</link>
+        <link>https://nicksherefkin.netlify.app/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.80.0 https://gohugo.io/</generator>
         
@@ -21,15 +21,15 @@
             <webMaster>nsherefkin@gmail.com (Nick Sherefkin)</webMaster>
         
         
-        <lastBuildDate>Sat, 02 Jan 2021 20:08:21 -0800</lastBuildDate>
+        <lastBuildDate>Sat, 02 Jan 2021 20:22:21 -0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://nicksherefkin.github.io/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://nicksherefkin.netlify.app/rss.xml" />
         
         
             <item>
                 <title>Nothing Blog</title>
-                <link>https://nicksherefkin.github.io/posts/post1/</link>
-                <guid isPermaLink="true">https://nicksherefkin.github.io/posts/post1/</guid>
+                <link>https://nicksherefkin.netlify.app/posts/post1/</link>
+                <guid isPermaLink="true">https://nicksherefkin.netlify.app/posts/post1/</guid>
                 <pubDate>Mon, 28 Dec 2020 16:08:41 -0800</pubDate>
                 
                 
