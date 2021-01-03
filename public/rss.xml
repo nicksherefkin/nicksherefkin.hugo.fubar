@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Nick Sherefkin&#39;s Sociology</title>
+        <link>https://nicksherefkin.github.io/</link>
+        <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
+        <generator>Hugo 0.80.0 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+            <managingEditor>nsherefkin@gmail.com (Nick Sherefkin)</managingEditor>
+        
+        
+            <webMaster>nsherefkin@gmail.com (Nick Sherefkin)</webMaster>
+        
+        
+        <lastBuildDate>Sat, 02 Jan 2021 20:08:21 -0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://nicksherefkin.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>Nothing Blog</title>
+                <link>https://nicksherefkin.github.io/posts/post1/</link>
+                <guid isPermaLink="true">https://nicksherefkin.github.io/posts/post1/</guid>
+                <pubDate>Mon, 28 Dec 2020 16:08:41 -0800</pubDate>
+                
+                
+                
+                    <description>&lt;p&gt;&lt;em&gt;Wei wu wei&lt;/em&gt; is a Taoist phrase meaning &amp;ldquo;do by not doing&amp;rdquo;. I learned about it the summer I read the Tao Te Ching. I was reassembling myself after quitting a job teaching high school geometry. My students had been lovable kids and my coworkers had been supportive peers but I had slowly been turning the job into a gauntlet of challenges I could no longer complete. I took each imperfect lesson as a failure and traced failure each to some action or preparation I had failed to &lt;strong&gt;do&lt;/strong&gt;. After two years, I resolved the emotional toll of always being unable to &lt;strong&gt;do&lt;/strong&gt; enough by stopping doing any of it.&lt;/p&gt;
+&lt;p&gt;Years later, I am midway through a PhD in Sociology but I am starting to feel the same way about my writing as I did about my teaching and I don&amp;rsquo;t want to repeat that arc. One thing I am trying to help with the burden of never doing enough writing is by writing this blog to you, my mystery reader.&lt;/p&gt;
+&lt;p&gt;It will be an outlet for me to babble whenever I cannot wrangle my thoughts into academic form. I have been writing at least 30 minutes a day to keep the fingers limber and I think if I have this blog as a place to write for fun, it will keep those 30 minutes from devolving into a chore and compounding my writing ennui. Maybe this can be a place where I can write by not writing.&lt;/p&gt;
+&lt;p&gt;We will see if any structure emerges from my stream of blog-consciousness. I am interested in sociology, small communities, board games, power, Buddhism, and change so maybe some of those will turn into common topics?&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
