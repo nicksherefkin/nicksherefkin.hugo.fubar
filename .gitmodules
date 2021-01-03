@@ -7,18 +7,15 @@
 [submodule "themes/swift"]
 	path = themes/swift
 	url = https://github.com/onweru/hugo-swift-theme.git
-<<<<<<< HEAD
 [submodule "themes/hugo-theme-codex"]
 	path = themes/hugo-theme-codex
 	url = https://github.com/jakewies/hugo-theme-codex.git
 [submodule "themes/hugo-theme-meme"]
 	path = themes/hugo-theme-meme
 	url = https://github.com/reuixiy/hugo-theme-meme.git
-=======
 [submodule "themes/Hugo"]
 	path = themes/Hugo
 	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
 [submodule "data/comments"]
 	path = data/comments
 	url = https://github.com/nicksherefkin/blog_comments.git
->>>>>>> dev
