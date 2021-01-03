@@ -42,8 +42,11 @@
 
         </article>
 
+<<<<<<< HEAD
         {{ .Render "comments" }}
 
+=======
+>>>>>>> dev
         {{ if and .Site.Params.enableGoogleAdUnits (eq hugo.Environment "production") -}}
             {{ partial "third-party/google-adsense-unit.html" . }}
         {{- end }}
@@ -64,5 +67,15 @@
 
         {{ partial "components/post-nav.html" . }}
 
+<<<<<<< HEAD
+=======
+        {{ partial "components/comments.html" . }}
+
+        {{ partial "components/comments.html" . }}
+
+        {{/* Added by NS */}}
+        {{ partial "staticman.html" . }}
+
+>>>>>>> dev
     </div>
 </main>
